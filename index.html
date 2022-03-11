@@ -7,37 +7,51 @@
     <link rel="stylesheet" href="css/index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Smooch+Sans"
+      href="https://fonts.googleapis.com/css?family=Staatliches"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Sansita+Swashed"
+      href="https://fonts.googleapis.com/css?family=Smooch+Sans"
     />
+
     <title>Homepage</title>
   </head>
   <body>
-    <img src="./imgs/nyg logo.png" alt="logopng" />
+    <!-- Dropdown Menu -->
+    <!-- <div class="dropdown">
+      <p>juan</p>
+      <div class="dropdown-content"><p>dos</p></div>
+    </div> -->
+    <!-- Logo -->
+    <img id="logo" src="./imgs/nyg logo.png" alt="logopng" />
+    <!-- Title -->
     <h1>NYG - [Content Creator, Designer, Editor]</h1>
+    <!-- Description -->
     <p>
       Posjedovanje više godina iskustva u vezi Grafičkog Dizajna, npr. montaža
       video isječaka, uređivanje i komponovanje fotografija i front-end web
       kodiranja omogućava mi da vama pomognem da realizujete svoje želje i ideje
-      na konkretan i profesionalan način. Možete me kontaktirati pomoću obrazca
+      na konkretan i profesionalan način. Možete me kontaktirati pomoću obrasca
       ispod teksta ili pomoću telefonskog broja:
     </p>
 
     <p>+000 - 000 - 000</p>
+    <!-- Contact form -->
     <form action="https://formspree.io/f/xjvlrzje" method="POST">
       <label>
         Your email:
         <br />
-        <input type="email" name="email" />
+        <input type="email" name="email" placeholder="Vaš E-Mail ovdje" />
       </label>
       <br />
       <label>
         Your message:
         <br />
-        <textarea name="message"></textarea>
+        <textarea
+          id="message1"
+          name="message"
+          placeholder="Vaša poruka"
+        ></textarea>
       </label>
       <br />
       <!-- your other form fields go here -->
