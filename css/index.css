@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-family: "Staatliches", serif;
+  font-family: "Staatliches", cursive;
   color: rgb(255, 255, 255);
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -19,7 +19,7 @@ h1 {
   );
 }
 p {
-  font-family: "Smooch Sans", serif;
+  font-family: "Smooch Sans", sans-serif;
   font-size: 200%;
   color: white;
 }
