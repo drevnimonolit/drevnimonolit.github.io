@@ -8,6 +8,8 @@ body {
 }
 
 h1 {
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
   font-family: "Staatliches", cursive;
   color: rgb(255, 255, 255);
   background: rgb(2, 0, 36);
@@ -43,11 +45,25 @@ p {
   display: block;
 } */
 
-#logo {
-  position: relative;
-  width: 99vw;
-  max-width: 500px;
+#Layer_1 {
+  display: block;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
+
+/* @media only screen and (min-width: 1000px) {
+  #Layer_1 {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #Layer_1 {
+    width: 100%;
+  } 
+}*/
 
 #message1 {
   width: 200px;
