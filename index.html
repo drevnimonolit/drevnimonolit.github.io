@@ -15,9 +15,8 @@
     <title>Homepage</title>
   </head>
   <body>
-    <!-- Dropdown menu background -->
-    <div class="dropdown-background"></div>
     <!-- Dropdown menu -->
+    <div class="dropdown-background"></div>
     <div class="dropdown">
       <button class="dropbtn">Menu</button>
       <div class="dropdown-content">
@@ -26,6 +25,7 @@
       </div>
     </div>
     <!-- Logo svg -->
+    <!--Enter this attribute  preserveAspectRatio="none" -->
     <svg
       version="1.1"
       id="Layer_1"
@@ -77,25 +77,27 @@
 
     <p>+000 - 000 - 000</p>
     <!-- Contact form -->
-    <form action="https://formspree.io/f/xjvlrzje" method="POST">
-      <label>
-        Your email:
+    <div id="input-form-div">
+      <form action="https://formspree.io/f/xjvlrzje" method="POST">
+        <label>
+          Your email:
+          <br />
+          <input type="email" name="email" placeholder="Vaš E-Mail ovdje" />
+        </label>
         <br />
-        <input type="email" name="email" placeholder="Vaš E-Mail ovdje" />
-      </label>
-      <br />
-      <label>
-        Your message:
+        <label>
+          Your message:
+          <br />
+          <textarea
+            id="message1"
+            name="message"
+            placeholder="Vaša poruka"
+          ></textarea>
+        </label>
         <br />
-        <textarea
-          id="message1"
-          name="message"
-          placeholder="Vaša poruka"
-        ></textarea>
-      </label>
-      <br />
-      <!-- your other form fields go here -->
-      <button type="submit">Send</button>
-    </form>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+    </div>
   </body>
 </html>
