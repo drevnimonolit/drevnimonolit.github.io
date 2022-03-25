@@ -69,6 +69,12 @@ body {
   background-color: white;
 }
 
+/* Dropdown link font */
+.dropdown-content a {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+}
+
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
