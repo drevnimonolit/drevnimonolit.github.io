@@ -26,10 +26,15 @@ body {
     rgb(0, 0, 0) 100%
   );
   color: white;
-  padding: 16px;
-  font-size: 16px;
   border: none;
+  padding: 6px;
   cursor: pointer;
+}
+.menu-bar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 /* The container <div> - needed to postiiton the dropdown content*/
@@ -60,8 +65,8 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
+.dropdown:hover .menu-bar {
+  background-color: white;
 }
 
 /* Show the dropdown menu on hover */

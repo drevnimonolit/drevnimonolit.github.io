@@ -33,10 +33,15 @@ body {
     rgb(0, 0, 0) 100%
   );
   color: white;
-  padding: 16px;
-  font-size: 16px;
   border: none;
+  padding: 6px;
   cursor: pointer;
+}
+.menu-bar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 /* The container <div> - needed to postiiton the dropdown content*/
@@ -90,8 +95,8 @@ h1 {
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #9c9c9c;
+.dropdown:hover .menu-bar {
+  background-color: white;
 }
 
 /* Description */
