@@ -84,3 +84,21 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #9c9c9c;
 }
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 31vw;
+}
+
+img:hover {
+  box-shadow: 0 0 10px 5px rgb(126, 0, 0);
+}
