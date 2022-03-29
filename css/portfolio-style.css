@@ -1,95 +1,13 @@
-body {
-  background-color: black;
-}
-
-/* Dropdown Background */
-.dropdown-background {
-  position: relative;
-  width: auto;
-  height: 50px;
-  background: linear-gradient(
-    0deg,
-    rgb(255, 20, 20) 0%,
-    rgb(126, 0, 0) 35%,
-    rgb(0, 0, 0) 100%
-  );
-  z-index: 1;
-}
-
-/*Dropdown Button Style */
-.dropbtn {
-  position: relative;
-  background: linear-gradient(
-    0deg,
-    rgb(255, 20, 20) 0%,
-    rgb(126, 0, 0) 35%,
-    rgb(0, 0, 0) 100%
-  );
-  color: white;
-  border: none;
-  padding: 6px;
-  cursor: pointer;
-}
-.menu-bar {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-}
-
-/* The container <div> - needed to postiiton the dropdown content*/
-.dropdown {
-  z-index: 2;
-  /* right: 40vw; */
-  bottom: 51px;
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown:hover .menu-bar {
-  background-color: white;
-}
-
-/* Dropdown link font */
-.dropdown-content a {
-  font-family: "Staatliches", cursive;
-  text-align: center;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #9c9c9c;
-}
-
-.thumbnails {
+.row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.column {
+  flex: 30%;
 }
 
 img {
