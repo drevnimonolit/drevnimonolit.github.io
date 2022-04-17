@@ -115,6 +115,7 @@ p {
 
 /* SVG placement */
 #Layer_1 {
+  /* border: 2px solid white; */
   text-align: center;
   display: block;
   padding: 0px;
