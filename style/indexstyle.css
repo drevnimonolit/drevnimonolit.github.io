@@ -201,7 +201,7 @@ background: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);  border-radius
   .profile {
     height: 300px;
     position: relative;
-    top: -500px;
+    top: -450px;
     left: 400px;
   }
 
