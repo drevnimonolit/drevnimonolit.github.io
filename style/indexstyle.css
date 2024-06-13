@@ -1,0 +1,417 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Pallete & Font */
+
+:root {
+  --primary-color: #222;
+  --secondary-color: #eee; 
+  --primary-font: "Arial Narrow Bold", Helvetica, sans-serif;
+}
+
+/* General Styling */
+body {
+  background-color: var(--secondary-color);
+}
+
+a, a:active, a:checked {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: large;
+}
+
+/* Responsive design for large screens */
+
+@media screen and (min-width: 1200px){
+
+#header{
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+#hero{
+  margin-top: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* Logo Composition */
+
+#main-title {
+  font-family: 'Great Vibes', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+}
+
+#sub-title {
+  font-family: 'Century Gothic',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+    font-size: 30px;
+    padding-left: 100px;
+    color: #7f8185;
+}
+
+
+#square {
+  background-color: #39b7e1;
+  height: 30px;
+  width: 800px;
+  position: relative;
+  top: -90px;
+  left: 70px;
+  z-index: -1;
+}
+
+.profile {
+  height: 300px;
+  position: relative;
+  top: -350px;
+  left: 800px;
+}
+
+#about {
+  margin-top: -350px;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.font-style-1 {
+  font-family: var(--primary-font);
+}
+
+
+.logo {
+  width: 75px; 
+}
+
+.menu-item {
+  padding-left: 20px;
+}
+
+/* Main content wrapper */
+
+.wrapper {
+  max-width: 1140px;
+  height: 100vh;
+  color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Circles at the bottom*/
+
+.circle1 {
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  opacity: 50%;
+  left: 900px;
+  top: 0px;
+background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);border-radius: 100%;
+
+}
+
+.circle2 {
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 560px;
+  height: 200px;
+  width: 200px;
+  opacity: 50%;
+background: linear-gradient(220.55deg, #FF5EEF 0%, #456EFF 100%);  border-radius: 100%;
+}
+
+.circle3 {
+    display: flex;
+    position: relative;
+    top: 90px;
+    left: 200px;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+background: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);  border-radius: 100%;
+  }
+
+/* Overflow hider */
+
+.circlewrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+}
+
+/* Responsive design for meidum screens */
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+
+  #header {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+  #hero {
+    margin-top: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  /* Logo Composition */
+
+  #main-title {
+    font-family: 'Great Vibes', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+  }
+
+  #sub-title {
+    font-family: 'Century Gothic',
+      'Gill Sans MT',
+      Calibri,
+      'Trebuchet MS',
+      sans-serif;
+    font-size: 30px;
+    padding-left: 100px;
+    color: #7f8185;
+  }
+
+
+  #square {
+    background-color: #39b7e1;
+    height: 30px;
+    width: 500px;
+    position: relative;
+    top: -90px;
+    left: 70px;
+    z-index: -1;
+  }
+
+  .profile {
+    height: 300px;
+    position: relative;
+    top: -500px;
+    left: 400px;
+  }
+
+  #about {
+    margin-top: -350px;
+  }
+
+  .flexbox {
+    display: flex;
+    align-items: center;
+  }
+
+  .font-style-1 {
+    font-family: var(--primary-font);
+  }
+
+
+  .logo {
+    width: 75px;
+  }
+
+  .menu-item {
+    padding-left: 20px;
+  }
+
+  /* Main content wrapper */
+
+  .wrapper {
+    max-width: 720px;
+    height: 100vh;
+    color: var(--primary-color);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Circles at the bottom*/
+
+  .circle1 {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+    left: 500px;
+    top: 0px;
+    background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);
+    border-radius: 100%;
+
+  }
+
+  .circle2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 160px;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+    background: linear-gradient(220.55deg, #FF5EEF 0%, #456EFF 100%);
+    border-radius: 100%;
+  }
+
+  .circle3 {
+    display: flex;
+    position: relative;
+    top: 90px;
+    left: -200px;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+    background: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);
+    border-radius: 100%;
+  }
+
+  /* Overflow hider */
+
+  .circlewrapper {
+    height: 200px;
+    overflow: hidden;
+  }
+
+}
+
+/* Responsive design for small screens */
+
+@media screen and (max-width: 768px) {
+
+  #header {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+  #hero {
+    margin-top: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  /* Logo Composition */
+
+  #main-title {
+    font-family: 'Great Vibes', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+  }
+
+  #sub-title {
+    font-family: 'Century Gothic',
+      'Gill Sans MT',
+      Calibri,
+      'Trebuchet MS',
+      sans-serif;
+    font-size: 30px;
+    padding-left: 100px;
+    color: #7f8185;
+  }
+
+
+  #square {
+    background-color: #39b7e1;
+    height: 30px;
+    width: 500px;
+    position: relative;
+    top: -90px;
+    left: 70px;
+    z-index: -1;
+  }
+
+  .profile {
+    height: 300px;
+    position: relative;
+    top: -500px;
+    left: 400px;
+  }
+
+  #about {
+    margin-top: -350px;
+  }
+
+  .flexbox {
+    display: flex;
+    align-items: center;
+  }
+
+  .font-style-1 {
+    font-family: var(--primary-font);
+  }
+
+
+  .logo {
+    width: 75px;
+  }
+
+  .menu-item {
+    padding-left: 20px;
+  }
+
+  /* Main content wrapper */
+
+  .wrapper {
+    max-width: 720px;
+    height: 100vh;
+    color: var(--primary-color);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Circles at the bottom*/
+
+  .circle1 {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+    left: 500px;
+    top: 0px;
+    background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);
+    border-radius: 100%;
+
+  }
+
+  .circle2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 160px;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+    background: linear-gradient(220.55deg, #FF5EEF 0%, #456EFF 100%);
+    border-radius: 100%;
+  }
+
+  .circle3 {
+    display: flex;
+    position: relative;
+    top: 90px;
+    left: -200px;
+    height: 200px;
+    width: 200px;
+    opacity: 50%;
+    background: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);
+    border-radius: 100%;
+  }
+
+  /* Overflow hider */
+
+  .circlewrapper {
+    height: 200px;
+    overflow: hidden;
+  }
+
+}
