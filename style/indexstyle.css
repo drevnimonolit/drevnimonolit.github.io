@@ -93,7 +93,7 @@ footer {
   border-radius: 30px;
   display: inline-block;
   align-content: center;
-  background-color: var(--secondarycolor);
+  background-color: black;
   overflow: scroll;
   scrollbar-width: none;
   height: 100%;
@@ -113,7 +113,7 @@ footer {
 
 #video1 {
   width: 100%;
-  height: 105%;
+  height: 100%;
 }
 
 #buttons {
