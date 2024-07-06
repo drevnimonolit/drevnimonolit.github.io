@@ -1,28 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="MonolitLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-  <defs>
-    <style>
-      .cls-1, .cls-2 {
-        fill: #222;
-      }
-
-      .cls-3 {
-        fill: none;
-      }
-
-      .cls-3, .cls-4, .cls-2 {
-        stroke: #eee;
-        stroke-miterlimit: 10;
-        stroke-width: 3px;
-      }
-
-      .cls-4 {
-        fill: #eee;
-      }
-    </style>
-  </defs>
-  <circle id="CircleBG" class="cls-1" cx="120" cy="120" r="97.04"/>
-  <circle id="OuterLine" class="cls-3" cx="120" cy="120" r="88.93"/>
-  <path id="GateBG" class="cls-2" d="m159.87,199.42s-15.37,9.51-39.87,9.51-39.87-9.51-39.87-9.51l13.87-106.24h52l13.87,106.24Z"/>
-  <path id="InnerGate" class="cls-4" d="m120,197.79h0c-16.68,0-28.03-17.21-25.76-35.33l7.61-60.6h36.31l7.61,60.6c2.27,18.11-9.08,35.33-25.76,35.33Z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="MonolitLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 194.1 194.1" style="enable-background:new 0 0 194.1 194.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#222222;}
+	.st1{fill:none;stroke:#EEEEEE;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#222222;stroke:#EEEEEE;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#EEEEEE;stroke:#EEEEEE;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<circle id="CircleBG" class="st0" cx="97" cy="97" r="97"/>
+<circle id="OuterLine" class="st1" cx="97" cy="97" r="88.9"/>
+<path id="GateBG" class="st2" d="M136.9,176.5c0,0-15.4,9.5-39.9,9.5s-39.9-9.5-39.9-9.5L71,70.2h52L136.9,176.5z"/>
+<path id="InnerGate" class="st3" d="M97,174.8L97,174.8c-16.7,0-28-17.2-25.8-35.3l7.6-60.6h36.3l7.6,60.6
+	C125.1,157.6,113.7,174.8,97,174.8L97,174.8z"/>
 </svg>
