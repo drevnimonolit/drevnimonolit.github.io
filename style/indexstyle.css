@@ -94,7 +94,8 @@ footer {
   display: inline-block;
   align-content: center;
   background-color: black;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   scrollbar-width: none;
   height: 100%;
   width: 50%;
@@ -105,8 +106,9 @@ footer {
   box-sizing: border-box;
   align-content: center;
   padding: 50px;
-  overflow: scroll;
-  scrollbar-width: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
   height: 100%;
   width: 50%;
 }
@@ -146,6 +148,23 @@ footer {
 
 /* xs */
 @media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .canvas {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .canvasleft {
+      width: 100%;
+    }
+
+    .canvasright {
+      width: 90%;
+    }
+
   .container{
     width: 100%;
   }
@@ -164,6 +183,23 @@ footer {
 
 /* s */
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  h1 {
+      font-size: 1.5rem;
+    }
+
+  .canvas {
+      flex-direction: column;
+      align-items: center;
+    }
+
+        .canvasleft {
+          width: 100%;
+        }
+    
+        .canvasright {
+          width: 90%;
+        }
+
   .container {
       width: 540px;
     }
@@ -184,6 +220,10 @@ footer {
 
 /* m */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .canvas {
+    flex-direction: row;
+  }
+
   .container {
       width: 720px;
     }
@@ -204,6 +244,10 @@ footer {
 
 /* l */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .canvas {
+      flex-direction: row;
+    }
+
   .container {
       width: 960px;
     }
@@ -224,6 +268,10 @@ footer {
 
 /* xl */
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .canvas {
+      flex-direction: row;
+    }
+
   .container {
       width: 1140px;
     }
@@ -245,6 +293,10 @@ footer {
 
 /* xxl */
 @media screen and (min-width: 1400px) {
+  .canvas {
+      flex-direction: row;
+    }
+
   .container {
       width: 1320px;
     }
